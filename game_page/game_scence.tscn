@@ -130,3 +130,5 @@ offset_right = 1152.0
 offset_bottom = 49.0
 text = "Back"
 script = ExtResource("25_xxi4u")
+
+[connection signal="pressed" from="back" to="back" method="_on_pressed"]
