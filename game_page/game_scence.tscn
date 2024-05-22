@@ -29,6 +29,11 @@
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_pcdrq"]
 animations = [{
+"frames": [],
+"loop": true,
+"name": &"Hand_1",
+"speed": 5.0
+}, {
 "frames": [{
 "duration": 1.0,
 "texture": ExtResource("1_lh881")
@@ -108,7 +113,7 @@ animations = [{
 }, {
 "frames": [],
 "loop": true,
-"name": &"new_animation",
+"name": &"new_animation_1",
 "speed": 5.0
 }]
 
@@ -120,7 +125,7 @@ animations = [{
 position = Vector2(346.333, 317)
 scale = Vector2(0.405556, 0.405556)
 sprite_frames = SubResource("SpriteFrames_pcdrq")
-animation = &"new_animation"
+animation = &"new_animation_1"
 
 [node name="AnimatedSprite2D2" type="AnimatedSprite2D" parent="CharacterBody2D"]
 position = Vector2(820.333, 317)
